@@ -33,7 +33,6 @@ export default function Home() {
           { name: "Contact", link: "#contact", icon: <PiAlienBold /> },
           { name: "Orange", link: "#orange", icon: <PiPawPrintDuotone /> },
         ]}
-        containerRef={mainRef}
       />
 
       {/* Full-Screen Sections */}
