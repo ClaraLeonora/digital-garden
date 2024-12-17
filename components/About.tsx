@@ -16,7 +16,7 @@ const About = () => {
       <div className="w-full md:w-1/2 h-full flex items-center justify-center bg-red px-4 md:px-0">
         <div className="text-center p-8 rounded-lg">
           <h1 className="font-merriweather text-3xl md:text-4xl font-bold text-background mb-4">
-            Hi, I'm Clara
+            Hi, I&apos;m Clara
           </h1>
           <p className="font-firacode text-lg md:text-xl text-background">
             —computer scientist by day, artist by night, and full-time ambassador of creativity. 

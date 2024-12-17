@@ -13,9 +13,6 @@ export const FloatingNav = ({
   className?: string;
   containerRef: React.RefObject<HTMLElement | null>; // Allow null
 }) => {
-  const { scrollYProgress } = useScroll({
-    container: containerRef.current ? containerRef : undefined,
-  });
 
   return (
     <AnimatePresence mode="wait">
