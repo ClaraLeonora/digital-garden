@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <main
       ref={mainRef}
-      className="relative bg-background flex flex-col w-full h-screen snap-y snap-mandatory overflow-y-scroll"
+      className="relative bg-background flex flex-col w-full h-screen md:snap-y md:snap-mandatory overflow-y-scroll"
     >
       {/* Floating Navigation */}
       <FloatingNav
