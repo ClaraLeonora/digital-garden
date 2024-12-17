@@ -26,7 +26,6 @@ export const PinContainer = ({
   const onMouseEnter = () => {
     setTransform("translate(-50%,-50%) rotateX(10deg) scale(1)");
   };
-
   const onMouseLeave = () => {
     setTransform("translate(-50%,-50%) rotateX(0deg) scale(1)");
   };
@@ -76,37 +75,19 @@ export const PinContainer = ({
             </div>
           </div>
         </div>
-        <PinPerspective title={title} href={href} />
+        <PinPerspective />
       </div>
     </a>
   );
 };
 
-export const PinPerspective = ({
-  title,
-  href,
-}: {
-  title?: string;
-  href?: string;
-}) => {
+export const PinPerspective = () => {
   return (
     <motion.div
       className="pointer-events-none w-full h-80 flex items-center justify-center opacity-0 group-hover/pin:opacity-100 z-[60] transition duration-500"
-      title={title || ""}
     >
       <div className="w-full h-full -mt-7 flex-none inset-0">
-        <div className="absolute top-0 inset-x-0 flex justify-center">
-          {href && (
-            <a
-              href={href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="sr-only"
-            >
-              {title || "Visit Link"}
-            </a>
-          )}
-        </div>
+        <div className="absolute top-0 inset-x-0 flex justify-center"></div>
         <div
           style={{
             perspective: "1000px",
