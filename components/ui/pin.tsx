@@ -1,4 +1,5 @@
 "use client";
+
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
@@ -25,15 +26,21 @@ export const PinContainer = ({
   const onMouseEnter = () => {
     setTransform("translate(-50%,-50%) rotateX(10deg) scale(1)");
   };
+
   const onMouseLeave = () => {
     setTransform("translate(-50%,-50%) rotateX(0deg) scale(1)");
   };
 
   return (
-    <a href={href || "#"} target="_blank" rel="noopener noreferrer">
+    <a
+      href={href || "#"}
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label={title || "Link"}
+    >
       <div
         className={cn(
-          "relative group/pin z-50 cursor-pointer mb-8", // Added mb-8 to prevent overlap
+          "relative group/pin z-50 cursor-pointer mb-8",
           containerClassName
         )}
         onMouseEnter={onMouseEnter}
@@ -54,13 +61,15 @@ export const PinContainer = ({
           >
             <div className={cn("relative z-50 w-full", className)}>
               {title && (
-                <h1 className="font-bold text-xl mb-2 text-black-100">{title}</h1>
+                <h1 className="font-bold text-xl mb-2 text-black-100">
+                  {title}
+                </h1>
               )}
               <div className="mb-4">{children}</div>
               {image && (
                 <img
                   src={image}
-                  alt="Pin Image"
+                  alt={title || "Pin Image"}
                   className="w-full h-60 object-cover mt-auto"
                 />
               )}
@@ -81,9 +90,23 @@ export const PinPerspective = ({
   href?: string;
 }) => {
   return (
-    <motion.div className="pointer-events-none w-full h-80 flex items-center justify-center opacity-0 group-hover/pin:opacity-100 z-[60] transition duration-500">
+    <motion.div
+      className="pointer-events-none w-full h-80 flex items-center justify-center opacity-0 group-hover/pin:opacity-100 z-[60] transition duration-500"
+      title={title || ""}
+    >
       <div className="w-full h-full -mt-7 flex-none inset-0">
-        <div className="absolute top-0 inset-x-0 flex justify-center"></div>
+        <div className="absolute top-0 inset-x-0 flex justify-center">
+          {href && (
+            <a
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="sr-only"
+            >
+              {title || "Visit Link"}
+            </a>
+          )}
+        </div>
         <div
           style={{
             perspective: "1000px",

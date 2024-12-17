@@ -20,10 +20,10 @@ const About = () => {
           </h1>
           <p className="font-firacode text-lg md:text-xl text-background">
             —computer scientist by day, artist by night, and full-time ambassador of creativity. 
-            I’m a seeker of problems, a creator of solutions, and a firm believer that tech 
+            I am a seeker of problems, a creator of solutions, and a firm believer that tech 
             should be accessible, inclusive, and fun. The future needs everyone at the table 
-            to tackle the biggest engineering challenges, and I’m here to help make that happen. 
-            Before you scroll, here’s a challenge for you: What’s one way you can make an impact 
+            to tackle the biggest engineering challenges, and I am here to help make that happen. 
+            Before you scroll, here is a challenge for you: What is one way you can make an impact 
             on your community?
           </p>
         </div>

@@ -71,7 +71,7 @@ const timelineData = [
           image="/image/belltower.png"
           href="https://www.csc.ncsu.edu"
         >
-          Grand Challenges Scholar | STARS AI Scholar | Fall '24 Symposium Panelist | Conference Planning Committee | Student Leadership
+          Grand Challenges Scholar | STARS AI Scholar | Fall 2024 Symposium Panelist | Conference Planning Committee | Student Leadership
         </PinContainer>
 
         <PinContainer
