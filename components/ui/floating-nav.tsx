@@ -7,11 +7,9 @@ import Link from "next/link";
 export const FloatingNav = ({
   navItems,
   className,
-  containerRef,
 }: {
   navItems: { name: string; link: string; icon?: JSX.Element }[];
   className?: string;
-  containerRef: React.RefObject<HTMLElement | null>; // Allow null
 }) => {
 
   return (
