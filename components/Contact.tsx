@@ -26,7 +26,7 @@ const Contact = () => {
             className="h-full w-full flex flex-col items-center justify-center gap-4 text-black dark:text-background"
           >
             <IconDownload size={48} />
-            <span className="text-xl font-semibold">Download my Resume</span>
+            <span className="text-xl font-semibold text-center">Download my Resume</span>
           </a>
         </ButtonsCard>
 
@@ -37,7 +37,7 @@ const Contact = () => {
             className="h-full w-full flex flex-col items-center justify-center gap-4 text-black dark:text-background"
           >
             <IconMail size={48} />
-            <span className="text-xl font-semibold">
+            <span className="text-xl font-semibold text-center">
               Let&apos;s grab a coffee - Email Me
             </span>
           </a>
@@ -52,7 +52,7 @@ const Contact = () => {
             className="h-full w-full flex flex-col items-center justify-center gap-4 text-black dark:text-background"
           >
             <IconBrandLinkedin size={48} />
-            <span className="text-xl font-semibold">Connect with me on LinkedIn</span>
+            <span className="text-xl font-semibold text-center">Connect with me on LinkedIn</span>
           </a>
         </ButtonsCard>
 
@@ -65,7 +65,7 @@ const Contact = () => {
             className="h-full w-full flex flex-col items-center justify-center gap-4 text-black dark:text-background"
           >
             <IconBrandPinterest size={48} />
-            <span className="text-xl font-semibold">Enjoy some nice Art</span>
+            <span className="text-xl font-semibold text-center">Enjoy some nice Art</span>
           </a>
         </ButtonsCard>
       </div>
