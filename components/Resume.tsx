@@ -19,7 +19,7 @@ const timelineData = [
           href="/image/thought-poster.png" // Direct link to the image
           image="/image/logic-tutor.png"
         >
-          Enhancing student success by integrating an LLM into the Deep Thought Logic tutor.
+          Enhancing student success by working on integrating an LLM into the Deep Thought Logic tutor.
         </PinContainer>
 
         <PinContainer
@@ -53,7 +53,7 @@ const timelineData = [
         </PinContainer>
 
         <PinContainer
-          title="Coordinator & Curriculum Developer"
+          title="Outreach Coordinator & Curriculum Developer"
           href="https://www.canva.com/design/DAF_yQ2HKK0/Zts2mMBD3VCauEM2o5vK7A/edit?utm_content=DAF_yQ2HKK0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" // Direct link to the image
           image="/image/byte-sized-builder.png"
         >

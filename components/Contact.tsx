@@ -30,7 +30,7 @@ const Contact = () => {
             className="flex flex-col items-center justify-center gap-4 text-black dark:text-background"
           >
             <IconMail size={48} />
-            <span className="text-xl font-semibold">Let’s stay in touch–email</span>
+            <span className="text-xl font-semibold">Let&apos;s grab a coffee-Email Me</span>
           </a>
         </ButtonsCard>
 
@@ -43,7 +43,7 @@ const Contact = () => {
             className="flex flex-col items-center justify-center gap-4 text-black dark:text-background"
           >
             <IconBrandLinkedin size={48} />
-            <span className="text-xl font-semibold">Let’s connect on LinkedIn</span>
+            <span className="text-xl font-semibold">Connect with me on LinkedIn</span>
           </a>
         </ButtonsCard>
 
@@ -56,7 +56,7 @@ const Contact = () => {
             className="flex flex-col items-center justify-center gap-4 text-black dark:text-background"
           >
             <IconBrandPinterest size={48} />
-            <span className="text-xl font-semibold">Discover my favorite artworks</span>
+            <span className="text-xl font-semibold">Enjoy some nice Art</span>
           </a>
         </ButtonsCard>
 
