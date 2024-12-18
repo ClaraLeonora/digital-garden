@@ -5,12 +5,17 @@ const Stack = () => {
     <div className="relative h-screen w-full">
       {/* Background Image */}
       <picture>
-        {/* Mobile Image */}
+        {/* iPad Portrait Mode */}
         <source
           srcSet="/image/mobile-stack.png"
-          media="(max-width: 768px)" /* Switch image for smaller screens */
+          media="(max-width: 1024px) and (orientation: portrait)"
         />
-        {/* Default Image */}
+        {/* Default (including iPad Landscape Mode) */}
+        <source
+          srcSet="/image/tech-stack.png"
+          media="(orientation: landscape)"
+        />
+        {/* Fallback Image */}
         <img
           src="/image/tech-stack.png"
           alt="Background"
@@ -20,9 +25,7 @@ const Stack = () => {
       </picture>
 
       {/* Text Column */}
-      <div className="absolute top-[10%] left-1/2 transform -translate-x-1/2 w-auto bg-black/50 px-4 py-2 md:px-6 md:py-3 lg:px-8 lg:py-4 
-        portrait:top-[15%] portrait:left-1/2 
-        landscape:top-[8%] landscape:left-[60%] landscape:transform-none">
+      <div className="absolute top-[10%] left-1/2 transform -translate-x-1/2 w-auto bg-black/50 px-4 py-2 md:px-6 md:py-3 lg:px-8 lg:py-4">
         <h1 className="font-merriweather text-[clamp(2rem,6vw,4rem)] font-bold leading-tight text-center text-black-100">
           My Tech Stack
         </h1>
