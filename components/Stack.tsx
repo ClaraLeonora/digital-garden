@@ -20,7 +20,9 @@ const Stack = () => {
       </picture>
 
       {/* Text Column */}
-      <div className="absolute top-8 left-1/2 transform -translate-x-1/2 lg:top-8 lg:left-[61%] lg:transform-none w-auto bg-black/50 px-4 py-2 md:px-6 md:py-3 lg:px-8 lg:py-4">
+      <div className="absolute top-[10%] left-1/2 transform -translate-x-1/2 w-auto bg-black/50 px-4 py-2 md:px-6 md:py-3 lg:px-8 lg:py-4 
+        portrait:top-[15%] portrait:left-1/2 
+        landscape:top-[8%] landscape:left-[60%] landscape:transform-none">
         <h1 className="font-merriweather text-[clamp(2rem,6vw,4rem)] font-bold leading-tight text-center text-black-100">
           My Tech Stack
         </h1>
