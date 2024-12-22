@@ -6,8 +6,8 @@ const About = () => {
       {/* Left Section: Image */}
       <div className="w-full md:w-1/2 h-48 md:h-full landscape:h-screen portrait:h-auto">
         <img
-          src="/image/me.png"
-          alt="Me and My Cat"
+          src="/image/pose.png"
+          alt="Whimsical doodle-style illustration of Clara standing next to her orange cat in a playful stretching pose."
           className="w-full h-full object-contain md:object-cover"
         />
       </div>

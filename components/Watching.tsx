@@ -12,7 +12,7 @@ const Watching = () => {
         {/* Fullscreen Background Image */}
         <img
           src="/image/cat-sneak.png"
-          alt="Background"
+          alt="A close-up of an orange cat peeking their face over a ledge with curious eyes, as if intently observing something."
           className="absolute inset-0 w-full h-full object-cover"
         />
         {/* Centered Typewriter Effect */}

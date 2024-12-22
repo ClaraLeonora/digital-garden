@@ -18,7 +18,7 @@ const Stack = () => {
         {/* Fallback Image */}
         <img
           src="/image/tech-stack.png"
-          alt="Background"
+          alt="My tech stack: Java, Python, C, Javascript, React, Tailwindcss, Next.js, Eclipse, VS Code, Github."
           className="absolute inset-0 w-full h-full object-cover"
           style={{ objectPosition: 'center' }}
         />

@@ -11,6 +11,7 @@ export const PinContainer = ({
   className,
   containerClassName,
   image,
+  alt, // Add alt prop here
 }: {
   children: React.ReactNode;
   title?: string;
@@ -18,6 +19,7 @@ export const PinContainer = ({
   className?: string;
   containerClassName?: string;
   image?: string;
+  alt?: string; // Define alt as a string prop
 }) => {
   const [transform, setTransform] = useState(
     "translate(-50%,-50%) rotateX(0deg)"
@@ -68,7 +70,7 @@ export const PinContainer = ({
               {image && (
                 <img
                   src={image}
-                  alt={title || "Pin Image"}
+                  alt={alt || title || "Pin Image"} // Use alt prop or fallback to title or default text
                   className="w-full h-60 object-cover mt-auto"
                 />
               )}

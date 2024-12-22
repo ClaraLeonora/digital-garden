@@ -6,7 +6,7 @@ const Play = () => {
         {/* Background Image */}
         <img
           src="/image/cat-play-two.png"
-          alt="Background"
+          alt="An orange cat playfully swats at a ball of yarn."
           className="absolute inset-0 w-full h-full object-cover"
           style={{ objectPosition: 'center' }} /* Adjust as needed */
         />
