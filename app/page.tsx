@@ -28,10 +28,10 @@ export default function Home() {
       {/* Floating Navigation */}
       <FloatingNav
         navItems={[
-          { name: "About", link: "#about", icon: <PiYarnBold /> },
-          { name: "XP", link: "#xp", icon: <PiLegoFill /> },
-          { name: "Contact", link: "#contact", icon: <PiAlienBold /> },
-          { name: "Orange", link: "#orange", icon: <PiPawPrintDuotone /> },
+          { name: "About", link: "#about", icon: <PiYarnBold />, ariaLabel: "Navigate to About section"  },
+          { name: "XP", link: "#xp", icon: <PiLegoFill />, ariaLabel: "Navigate to Experience section"  },
+          { name: "Contact", link: "#contact", icon: <PiAlienBold />, ariaLabel: "Navigate to Contact section"  },
+          { name: "Orange", link: "#orange", icon: <PiPawPrintDuotone />, ariaLabel: "Navigate to meet the orange cat"  },
         ]}
       />
 

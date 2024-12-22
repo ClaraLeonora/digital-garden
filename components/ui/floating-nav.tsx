@@ -8,10 +8,9 @@ export const FloatingNav = ({
   navItems,
   className,
 }: {
-  navItems: { name: string; link: string; icon?: JSX.Element }[];
+  navItems: { name: string; link: string; icon?: JSX.Element; ariaLabel?: string }[];
   className?: string;
 }) => {
-
   return (
     <AnimatePresence mode="wait">
       <motion.div
@@ -28,6 +27,7 @@ export const FloatingNav = ({
             key={idx}
             href={navItem.link}
             className="font-firacode relative text-black-100 items-center flex space-x-1 hover:text-purple"
+            aria-label={navItem.ariaLabel || navItem.name} // Use ariaLabel or fallback to name
           >
             <span className="block">{navItem.icon}</span>
             <span className="hidden sm:block text-lg">{navItem.name}</span>
