@@ -24,6 +24,7 @@ const Contact = () => {
             href="/pdf/Resume-2024.pdf"
             download
             className="h-full w-full flex flex-col items-center justify-center gap-4 text-black dark:text-background"
+            aria-label="Download my resume in PDF format."
           >
             <IconDownload size={48} />
             <span className="text-xl font-semibold text-center">Download my Resume</span>
@@ -35,6 +36,7 @@ const Contact = () => {
           <a
             href="mailto:dgdimarc@ncsu.edu"
             className="h-full w-full flex flex-col items-center justify-center gap-4 text-black dark:text-background"
+            aria-label="Send me an email."
           >
             <IconMail size={48} />
             <span className="text-xl font-semibold text-center">
@@ -50,6 +52,7 @@ const Contact = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="h-full w-full flex flex-col items-center justify-center gap-4 text-black dark:text-background"
+            aria-label="Connect with me on LinkedIn (opens in a new tab)"
           >
             <IconBrandLinkedin size={48} />
             <span className="text-xl font-semibold text-center">Connect with me on LinkedIn</span>
@@ -63,6 +66,7 @@ const Contact = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="h-full w-full flex flex-col items-center justify-center gap-4 text-black dark:text-background"
+            aria-label="Check out my Pinterest board for some nice art (opens in a new tab)"
           >
             <IconBrandPinterest size={48} />
             <span className="text-xl font-semibold text-center">Enjoy some nice Art</span>

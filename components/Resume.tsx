@@ -11,6 +11,7 @@ const timelineData = [
           href="https://github.com/ClaraLeonora/Care-Pack.git" // Direct link to the image
           image="/image/care-pack.png"
           alt="A screenshot of the Care Pack application interface, showcasing resources for food, housing, and clothing support."
+          ariaLabel="Care Pack Application DEV (opens in a new tab)"
         >
           A centralized location for resources addressing food, housing, and clothing insecurity.
         </PinContainer>        
@@ -20,6 +21,7 @@ const timelineData = [
           href="https://drive.google.com/file/d/1TSjzbK1p-nuHpM4XkMNoNU3CGttP1B46/view?usp=sharing" // Direct link to the image
           image="/image/logic-tutor.png"
           alt="A screenshot of the Deep Thought Logic Tutor interface, highlighting its interactive tools for helping students solve logic problems effectively."
+          ariaLabel="LLM Logic Tutor research poster (opens in a new tab)"
         >
           Enhancing student success by working on integrating an LLM into the Deep Thought Logic tutor.
         </PinContainer>
@@ -29,6 +31,7 @@ const timelineData = [
           href="https://drive.google.com/file/d/14WinDj3W8Hc4bWjpseWxRNl_xM4AnITu/view?usp=sharing" // Example link
           image="/image/lspace.png"
           alt="An image of the NASA L'SPACE Mission Design project location on the Lunar surface."
+          ariaLabel="NASA L'SPACE Mission Design certificate of completion (opens in a new tab)"
         >
           Co-developed a 199 page lunar surface Mission Design to analyze lunar volatiles.
         </PinContainer>
@@ -38,6 +41,7 @@ const timelineData = [
           href="https://github.com/ClaraLeonora/Proof-Solver.git" // Example link
           image="/image/dnf-algo.png"
           alt="Python code implementation of the Disjunctive Normal Form (DNF) algorithm, designed to solve logical expressions efficiently."
+          ariaLabel="Disjunctive Normal From Proofer github (opens in a new tab)"
         >
           Solves propositional logic proofs with a Disjunstive Normal Form algorithm.
         </PinContainer>
@@ -53,6 +57,7 @@ const timelineData = [
           href="https://docs.google.com/presentation/d/1aXHUipZc9SJVp8TIaWVywAUDykX37rUE/edit?usp=sharing&ouid=103492514086297183847&rtpof=true&sd=true" // Direct link to the image
           image="/image/STARS-outreach.png"
           alt="A group photo of the NC State STARS AI outreach team at Reach for the Stars! Be a Star! STEM and Resource Fair for students with disabilities."
+          ariaLabel="STARS AI Outreach research poster (opens in a new tab)"
         >
           Designed activities to accommodate diverse educational acessibility needs.
         </PinContainer>
@@ -61,7 +66,8 @@ const timelineData = [
           title="Outreach Coordinator & Curriculum Developer"
           href="https://www.canva.com/design/DAF_yQ2HKK0/Zts2mMBD3VCauEM2o5vK7A/edit?utm_content=DAF_yQ2HKK0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" // Direct link to the image
           image="/image/byte-sized-builder.png"
-          alt="A PowerPoint presentation showcasing an interactive curriculum designed to teach 5th graders about the intersection of AI and robotics."
+          alt="A slideshow presentation showcasing an interactive curriculum designed to teach 5th graders about the intersection of AI and robotics."
+          ariaLabel="Byte Sized Builders slideshow presentation (opens in a new tab)"
         >
            Developed and delivered a dynamic curriculum for 5th-grade robotics enthusiasts.
         </PinContainer>
@@ -77,6 +83,7 @@ const timelineData = [
           image="/image/belltower.png"
           href="https://www.csc.ncsu.edu"
           alt="A photograph capturing the iconic NC State Belltower, a symbol of the university's heritage and pride."
+          ariaLabel="NC State Department of Computer Science (opens in a new tab)"
         >
           Grand Challenges Scholar | STARS AI Scholar | Fall 2024 Symposium Panelist | Conference Planning Committee | Student Leadership
         </PinContainer>
@@ -86,6 +93,7 @@ const timelineData = [
           href="https://coursera.org/share/6a0b3fe6768ef7859db9dfe32a914d68" // Direct link to the image
           image="/image/front-end-cert.png"
           alt="An image of the Meta 'Intro to Front-End Development' certificate, showcasing completion of the course."
+          ariaLabel="Meta's Intro to Front-End Development certificate of completion (opens in a new tab)"
         >
            Certificate of Completion
                

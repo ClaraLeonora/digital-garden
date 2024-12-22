@@ -11,7 +11,8 @@ export const PinContainer = ({
   className,
   containerClassName,
   image,
-  alt, // Add alt prop here
+  alt, 
+  ariaLabel,
 }: {
   children: React.ReactNode;
   title?: string;
@@ -19,7 +20,8 @@ export const PinContainer = ({
   className?: string;
   containerClassName?: string;
   image?: string;
-  alt?: string; // Define alt as a string prop
+  alt?: string;
+  ariaLabel?: string;
 }) => {
   const [transform, setTransform] = useState(
     "translate(-50%,-50%) rotateX(0deg)"
@@ -37,7 +39,7 @@ export const PinContainer = ({
       href={href || "#"}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label={title || "Link"}
+      aria-label={ariaLabel || `${title} (opens in a new tab)`}
     >
       <div
         className={cn(
