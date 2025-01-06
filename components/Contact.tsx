@@ -21,7 +21,7 @@ const Contact = () => {
         {/* Download Resume Button */}
         <ButtonsCard className="h-48 w-full flex items-center justify-center">
           <a
-            href="/pdf/Resume-2024.pdf"
+            href="/pdf/Resume.pdf"
             download
             className="h-full w-full flex flex-col items-center justify-center gap-4 text-black dark:text-background"
             aria-label="Download my resume in PDF format."
