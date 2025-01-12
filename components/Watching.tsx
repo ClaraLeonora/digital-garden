@@ -11,7 +11,7 @@ const Watching = () => {
       <div className="relative h-screen w-full mt-[30vh]"> {/* Push section down 30% */}
         {/* Fullscreen Background Image */}
         <img
-          src="/image/cat-sneak.png"
+          src="/image/cat-peak.png"
           alt="A close-up of an orange cat peeking their face over a ledge with curious eyes, as if intently observing something."
           className="absolute inset-0 w-full h-full object-cover"
         />

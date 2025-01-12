@@ -5,7 +5,7 @@ const Yarn = () => {
     <div className="relative h-screen w-full">
       {/* Background Image */}
       <img
-        src="/image/divine-yarn.png"
+        src="/image/holy-yarn.png"
         alt="A ball of yarn sits at the center of the screen, illuminated by a dramatic beam of light, giving it a comically divine appearance."
         className="absolute inset-0 w-full h-full object-cover"
         style={{ objectPosition: 'center' }} /* Adjust as needed */

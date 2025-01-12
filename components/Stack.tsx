@@ -12,7 +12,7 @@ const Stack = () => {
         />
         {/* Default (including iPad Landscape Mode) */}
         <source
-          srcSet="/image/tech-stack.png"
+          srcSet="/image/desktop-stack.png"
           media="(orientation: landscape)"
         />
         {/* Fallback Image */}
