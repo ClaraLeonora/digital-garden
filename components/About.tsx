@@ -19,12 +19,15 @@ const About = () => {
             Hi, I&apos;m Clara
           </h1>
           <p className="font-firacode text-base md:text-lg lg:text-xl text-background leading-relaxed">
-            —computer scientist by day, artist by night, and full-time ambassador of creativity.
-            I am a seeker of problems, a creator of solutions, and a firm believer that tech
-            should be accessible, inclusive, and fun. The future needs everyone at the table
-            to tackle the biggest engineering challenges, and I am here to help make that happen.
-            Before you scroll, here is a challenge for you: What is one way you can make an impact
-            on your community?
+          —computer scientist by day, artist by night, and a full-time ambassador for 
+          creativity. 
+          I bring ideas to life through code, art, and innovative solutions, 
+          to make technology accessible, inclusive, and fun. 
+          The future of engineering thrives when diverse 
+          voices collaborate. I’m passionate about creating tools and opportunities 
+          that amplify our unique strengths and invite everyone to contribute meaningfully. 
+          Before you scroll, here’s a thought: How can you use your skills to create a 
+          lasting impact in your community?
           </p>
         </div>
       </div>
