@@ -33,7 +33,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
   return (
     <div
-      className="w-full bg-white dark:bg-background font-sans md:px-10"
+      className="w-full bg-background font-sans md:px-10"
       ref={containerRef}
     >
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
@@ -60,7 +60,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
               </h3>
             </div>
 
-            <div className="relative pl-20 pr-4 md:pl-4 w-full">
+            <div className="relative pl-10 pr-2 md:pl-4 w-full"> {/* Adjusted padding for mobile */}
               <h3 className="font-merriweather md:hidden block text-2xl mb-4 text-left font-bold text-black-100 dark:text-black-100">
                 {item.title}
               </h3>

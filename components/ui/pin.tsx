@@ -60,7 +60,7 @@ export const PinContainer = ({
             style={{
               transform: transform,
             }}
-            className="absolute left-1/2 p-4 top-1/2 flex justify-start items-start rounded-2xl bg-orange group-hover/pin:bg-red border-[4px] border-orange group-hover/pin:border-red transition duration-700 overflow-hidden w-96 h-96"
+            className="absolute left-1/2 p-4 top-1/2 flex justify-start items-start rounded-2xl bg-orange group-hover/pin:bg-red border-[4px] border-orange group-hover/pin:border-red transition duration-700 overflow-hidden w-80 h-80 md:w-96 md:h-96" // Adjusted width and height for mobile
           >
             <div className={cn("relative z-50 w-full", className)}>
               {title && (
@@ -73,7 +73,7 @@ export const PinContainer = ({
                 <img
                   src={image}
                   alt={alt || title || "Pin Image"} // Use alt prop or fallback to title or default text
-                  className="w-full h-60 object-cover mt-auto"
+                  className="w-full h-48 object-cover mt-auto md:h-60" // Adjusted height for mobile
                 />
               )}
             </div>
