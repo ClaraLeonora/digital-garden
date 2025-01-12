@@ -16,7 +16,7 @@ export const ButtonsCard = ({
     <div
       onClick={onClick}
       className={cn(
-        "h-40 w-full bg-background rounded-xl border-4 border-black-100 dark:bg-red dark:border-black hover:border-orange group/btn overflow-hidden relative flex items-center justify-center",
+        "h-40 w-full rounded-xl border-4 border-black-100 bg-red hover:border-orange group/btn overflow-hidden relative flex items-center justify-center",
         className
       )}
     >
